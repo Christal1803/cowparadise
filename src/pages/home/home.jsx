@@ -1,3 +1,5 @@
+import Character from "../character/character";
+import Comingsoon from "../comingsoon/comingsoon";
 import Footer from "../footer/footer";
 import Gamemodes from "../gamemodes/gamemodes";
 import Header from "../header/header";
@@ -13,6 +15,8 @@ function Home() {
 <Watchtrailer/>
 <Gamemodes/>
 <Playgame/>
+<Character/>
+<Comingsoon/>
 <Footer/>
     </div>
   );

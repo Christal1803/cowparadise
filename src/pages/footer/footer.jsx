@@ -103,12 +103,14 @@ function Footer() {
           </div>
         </div>
 
-        <div class="pt-4 border-t text-center border-gray-200 dark:border-neutral-700">
+        
+      </footer>
+
+      <div class="pt-4 border-t text-center border-gray-200 dark:border-neutral-700 footer-bg pb-4">
           <h6 className="text-white">
             © cowparadisegames – All rights reserved
           </h6>
         </div>
-      </footer>
     </div>
   );
 }

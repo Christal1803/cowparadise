@@ -14,3 +14,9 @@
     left: 22%;
     top: -85%;
 }
+.earn-fencing {
+    transform: scaleX(-1);
+}
+
+
+

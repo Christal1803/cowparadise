@@ -1,0 +1,6 @@
+.character {
+    background-image: url("../../assets/comingbg.png");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
