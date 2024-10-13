@@ -1,0 +1,10 @@
+.f-30{
+    font-size: 30px;
+    line-height: 37px;
+}
+.f-15 {
+    font-size: 14px !important;
+}
+* {
+    font-family: "Montserrat", Sans-serif;
+}

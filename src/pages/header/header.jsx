@@ -1,8 +1,9 @@
+import '../header/header.css';
 
 function Header() {
   return (
     <div className="">
-<header class="flex flex-wrap  md:justify-start md:flex-nowrap z-50 w-full bg-white border-b border-gray-200 dark:bg-neutral-800 dark:border-neutral-700">
+<header class="flex flex-wrap  md:justify-start md:flex-nowrap z-50 w-full bg-transparent dark:bg-neutral-800 dark:border-neutral-700">
   <nav class="relative max-w-[90rem] w-full mx-auto md:flex md:items-center md:justify-between md:gap-3 py-2">
     <div class="flex justify-between items-center gap-x-1">
     <img width="250" height="213" src="https://cowparadisegames.com/wp-content/uploads/2024/02/cropped-Logo-final-scaled.webp" class="aux-attachment aux-featured-image attachment-2560x613 aux-attachment-id-1367 " alt="logo" data-ratio="4.18" data-original-w="2560"></img>
