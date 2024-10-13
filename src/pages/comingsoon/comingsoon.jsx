@@ -1,5 +1,5 @@
 import "../comingsoon/comingsoon.css";
-import coming from "../../assets/coming_soon_board.webp";
+import coming from "../../assets//coming_soon_board.png";
 
 
 function Comingsoon() {
