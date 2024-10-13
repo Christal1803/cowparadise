@@ -4,6 +4,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    -webkit-mask-image: linear-gradient(black 90%, transparent);
+    mask-image: linear-gradient(black 90%, transparent);
 }
 .sticky{
     position: sticky;
