@@ -1,0 +1,16 @@
+.playgames {
+    -webkit-mask-image: linear-gradient(transparent 0%, black 10%, black 100%);
+    mask-image: linear-gradient(transparent 0%, black 10%, black 100%);
+    background-color: #FFF0DF;
+
+}
+.about {
+    color: #444444;
+    font-size: 16px;
+    font-weight: 600;
+}
+.m-img {
+    position: absolute;
+    left: 22%;
+    top: -85%;
+}
