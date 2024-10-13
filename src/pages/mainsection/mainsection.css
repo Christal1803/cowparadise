@@ -5,3 +5,7 @@
     background-size: cover;
     height: 100vh;
 }
+.sticky{
+    position: sticky;
+    top: 0;
+}
