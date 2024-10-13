@@ -1,7 +1,6 @@
-.watchtrailer {
-    background-image: url('https://cowparadisegames.com/wp-content/uploads/2024/06/section2_bg.webp');
+.gamemodes {
+       background-image: url(https://cowparadisegames.com/wp-content/uploads/2024/06/section3_bg.webp);
     background-position: center center;
-    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     -webkit-mask-image: linear-gradient(black 90%, transparent);
