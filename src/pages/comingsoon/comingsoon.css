@@ -4,8 +4,3 @@
     background-size: cover;
     height: 100vh;
 }
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr); /* 6 columns, each taking equal width */
-    gap: 5px; /* Gap between the images */
-  }
