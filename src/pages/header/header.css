@@ -1,0 +1,22 @@
+.header-menu{
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+}
+.header-menu:hover{
+    color: #949494;
+}
+.header-button{
+    background-color: #D565f5;
+    padding: 60px 30px;
+    height: 55px;
+    border: 1px solid white;
+    font-weight: 800;
+    font-size: 16px;
+    color: #ffffff;
+}
+.header-button:hover{
+    background-color: #ffffff;
+    color:#D565f5 ;
+    border: 1px solid #D565f5;
+}
