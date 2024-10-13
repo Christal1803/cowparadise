@@ -1,5 +1,6 @@
 import Character from "../character/character";
 import Comingsoon from "../comingsoon/comingsoon";
+import Contactus from "../contactus/contactus";
 import Footer from "../footer/footer";
 import Gamemodes from "../gamemodes/gamemodes";
 import Header from "../header/header";
@@ -11,15 +12,16 @@ import Watchtrailer from "../watchtrailer/watchtrailer";
 function Home() {
   return (
     <div>
-{/* <Header/> */}
-<Mainsection/>
-<Watchtrailer/>
-<Gamemodes/>
-<Playgame/>
-<Character/>
-<Comingsoon/>
-<Team/>
-<Footer/>
+      {/* <Header/> */}
+      <Mainsection />
+      <Watchtrailer />
+      <Gamemodes />
+      <Playgame />
+      <Character />
+      <Comingsoon />
+      <Team />
+      <Contactus />
+      <Footer />
     </div>
   );
 }

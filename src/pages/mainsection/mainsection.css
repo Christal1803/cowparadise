@@ -11,3 +11,8 @@
     position: sticky;
     top: 0;
 }
+.sign-board {
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+}
