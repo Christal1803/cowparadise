@@ -5,7 +5,7 @@ function Footer() {
 
 
 
-    <div className='container'>
+    <div className='container-fluid'>
       <div className='row'>
         <footer class="mt-auto w-full py-10 px-5 sm:px-6 lg:px-8 mx-auto footer-bg">
           <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-6 mb-10 mt-4 pb-70">

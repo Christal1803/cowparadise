@@ -2,7 +2,7 @@ import '../character/character.css';
 
 function Character() {
     return (
-        <div className='container'>
+        <div className='container-fluid'>
             <div className='row'>
                 <div className='character'>
 
