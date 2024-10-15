@@ -2,7 +2,6 @@
     background-image: url(https://cowparadisegames.com/wp-content/uploads/2024/06/image6.webp);
     background-position: center center;
     background-size: cover;
-    height: 100vh;
 }
 .mx-p {
     max-width: min(100%, 1140px);

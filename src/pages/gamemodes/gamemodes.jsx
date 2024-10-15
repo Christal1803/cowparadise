@@ -2,7 +2,7 @@ import '../gamemodes/gamemodes.css';
 
 function Gamemodes() {
     return (
-        <div className='container'>
+        <div className='container-fluid'>
             <div className='row'>
                 <div className='gamemodes'>
                     <div class="widget-container">

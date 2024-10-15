@@ -2,7 +2,7 @@ import '../team/team.css';
 
 function Team() {
     return (
-        <div className='container'>
+        <div className='container-fluid'>
             <div className='row'>
                 <div className='team'>
                     <div class="widget-container mx-auto">
@@ -10,7 +10,7 @@ function Team() {
                     </div>
 
                     <div className='row mx-p'>
-                        <div className='col-4'>
+                        <div className='col-lg-4 col-md-12 col-sm-12'>
                             <div className='image-container'>
                                 <img
                                     src='https://cowparadisegames.com/wp-content/uploads/elementor/thumbs/John-Paul-Morris-qqmlfa0t8hh1z7njmek5c8h7ua9ofz5idm5117iav0.webp'
@@ -31,7 +31,7 @@ function Team() {
                             </div>
                         </div>
 
-                        <div className='col-4'>
+                        <div className='col-lg-4 col-md-12 col-sm-12'>
                             <div className='image-container'>
                                 <img
                                     src='https://cowparadisegames.com/wp-content/uploads/2024/07/Joseph-Pascal.webp'
@@ -51,7 +51,7 @@ function Team() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-4'>
+                        <div className='col-lg-4 col-md-12 col-sm-12'>
                             <div className='image-container'>
                                 <img
                                     src='https://cowparadisegames.com/wp-content/uploads/2024/07/Fabian.webp'
@@ -73,7 +73,7 @@ function Team() {
                         </div>
 
 
-                        <div className='col-4 mt-5'>
+                        <div className='col-lg-4 col-md-12 col-sm-12 mt-5'>
                             <div className='image-container'>
                                 <img
                                     src='https://cowparadisegames.com/wp-content/uploads/2024/07/Thierry.jpeg'
@@ -94,7 +94,7 @@ function Team() {
                             </div>
                         </div>
 
-                        <div className='col-4 mt-5'>
+                        <div className='col-lg-4 col-md-12 col-sm-12 mt-5'>
                             <div className='image-container'>
                                 <img
                                     src='https://cowparadisegames.com/wp-content/uploads/2024/07/Robin.jpeg'
@@ -114,7 +114,7 @@ function Team() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-4 mt-5'>
+                        <div className='col-lg-4 col-md-12 col-sm-12 mt-5'>
                             <div className='image-container'>
                                 <img
                                     src='https://cowparadisegames.com/wp-content/uploads/2024/07/Carla.jpeg'
@@ -135,7 +135,7 @@ function Team() {
                             </div>
                         </div>
 
-                        <div className='col-4 mt-5'>
+                        <div className='col-lg-4 col-md-12 col-sm-12 mt-5'>
                             <div className='image-container'>
                                 <img
                                     src='https://cowparadisegames.com/wp-content/uploads/2024/07/Patrick.jpeg'
@@ -156,7 +156,7 @@ function Team() {
                             </div>
                         </div>
 
-                        <div className='col-4 mt-5'>
+                        <div className='col-lg-4 col-md-12 col-sm-12 mt-5 mb-5'>
                             <div className='image-container'>
                                 <img
                                     src='https://cowparadisegames.com/wp-content/uploads/2024/07/Sunmeet.jpeg'

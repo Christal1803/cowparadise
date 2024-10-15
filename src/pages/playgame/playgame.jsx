@@ -4,14 +4,14 @@ import earn from '../../assets/earncoins.png'
 
 function Playgame() {
     return (
-        <div className='container'>
+        <div className='container-fluid'>
             <div className='row'>
                 <div className='playgames '>
                     <div className='container'>
                         <div className='row'>
                             <div>
-                                <div className='col-12 d-flex justify-content-center mx-auto'>
-                                    <div className='my-auto ' style={{ width: '500px' }}>
+                                <div className='col-sm-12 d-flex justify-content-center mx-auto'>
+                                    <div className='my-auto col-sm-12' style={{ width: '500px' }}>
                                         <img className='img-fluid' src="https://cowparadisegames.com/wp-content/uploads/2024/06/earn_coin_board.webp" alt="" />
 
                                         <div className='about mt-3 text-start fw-300'>
