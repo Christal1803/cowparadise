@@ -34,8 +34,6 @@ function Comingsoon() {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>

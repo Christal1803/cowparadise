@@ -10,7 +10,7 @@ function Playgame() {
                     <div className='container'>
                         <div className='row'>
                             <div>
-                                <div className='col-sm-12 d-flex justify-content-center mx-auto'>
+                                <div className='col-sm-12 d-sm-block d-lg-flex justify-content-center mx-auto'>
                                     <div className='my-auto col-sm-12' style={{ width: '500px' }}>
                                         <img className='img-fluid' src="https://cowparadisegames.com/wp-content/uploads/2024/06/earn_coin_board.webp" alt="" />
 
