@@ -47,7 +47,7 @@ const Slider3D = () => {
           </div>
         </div>
         <div className="slider-item cursor-pointer">
-          <div className="container-fluid">
+          {/* <div className="container-fluid">
             <div className="row">
               <div className="col-12">
               <div className="trans-2 text-center">
@@ -58,7 +58,7 @@ const Slider3D = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <img
             src="https://cowparadisegames.com/wp-content/uploads/2024/02/11CowParadiseExploration.00_00_16_27.Still001.webp"
             alt="Slide 2"
