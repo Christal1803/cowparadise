@@ -64,7 +64,9 @@ const Slider3D = () => {
             alt="Slide 2"
           />
 
-          
+
+
+
         </div>
         <div className="slider-item cursor-pointer">
           <img
