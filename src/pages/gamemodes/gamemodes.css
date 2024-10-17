@@ -2,7 +2,88 @@
        background-image: url(https://cowparadisegames.com/wp-content/uploads/2024/06/section3_bg.webp);
     background-position: center center;
     background-size: cover;
-    height: 100vh;
+
     -webkit-mask-image: linear-gradient(black 90%, transparent);
     mask-image: linear-gradient(black 90%, transparent);
+}
+.char {
+    width: 100%; /* Allows the container to take the full width of its parent */
+    max-width: 1140px; /* Limits the maximum width to 1140 pixels */
+    margin: 0 auto; /* Centers the container horizontally */
+  }
+  .carousel-item {
+    position: relative;
+}
+
+.video-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.carousel-item {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: transform 0.8s ease, opacity 0.8s ease;
+}
+
+.carousel-item.active {
+    opacity: 1;
+    position: relative;
+    transform: translateX(0); /* Active slide is centered */
+}
+
+/* Slide to the right when clicking "Prev" */
+.carousel-item-next {
+    transform: translateX(-100%); /* Slide the previous item in from the left */
+    opacity: 1;
+}
+
+.carousel-item-next.carousel-item-end {
+    transform: translateX(0); /* Move the item to the center */
+}
+
+/* Slide to the left when clicking "Next" */
+.carousel-item-prev {
+    transform: translateX(100%); /* Slide the next item in from the right */
+    opacity: 1;
+}
+
+.carousel-item-prev.carousel-item-start {
+    transform: translateX(0); /* Move the item to the center */
+}
+
+/* Custom transition for sliding current item out */
+.carousel-item.carousel-item-end {
+    transform: translateX(-100%); /* Slide the current item out to the left */
+}
+
+.carousel-item.carousel-item-start {
+    transform: translateX(100%); /* Slide the current item out to the right */
+}
+.caption {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-button {
+    background-color: #D565f5;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 25px;
+}
+.f-30 {
+    font-size: 30px;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
 }

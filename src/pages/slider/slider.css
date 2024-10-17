@@ -1,0 +1,85 @@
+/* Slider3D.css */
+.slider-container {
+    width: 90%;
+    margin: auto;
+    perspective: 1000px;
+  }
+  
+  .slick-slide {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slick-center .slider-item {
+    transform: scale(1.2) rotateY(0deg);
+    transition: transform 0.5s ease;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    z-index: 1;
+  }
+  
+  .slider-item {
+    padding: 10px;
+    transform: scale(0.8) rotateY(15deg);
+    transition: transform 0.5s ease;
+  }
+  
+  .slider-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); */
+  }
+  img.img-fluid.banner-img {
+    height: 682px;
+    width: 916PX;
+}
+.trans {
+    vertical-align: top;
+    position: absolute;
+    pointer-events: auto;
+    touch-action: pan-y;
+    height: auto;
+    width: 682px;
+    left: 538px;
+    top: 442px;
+    z-index: 7;
+    perspective: 601px;
+    background: #ffffff5e;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+.trans > h4, .trans-2 > h4 {
+    font-family: Poppins;
+    vertical-align: top;
+    font-weight: 800;
+    font-size: 70px;
+    padding: 50px 30px 10px;
+}
+.trans > h6, .trans-2 > h6 {
+    line-height: 28px;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.trans-2 {
+    vertical-align: top;
+    position: absolute;
+    pointer-events: auto;
+    touch-action: pan-y;
+    height: auto;
+    width: 682px;
+    left: 538px;
+    top: 442px;
+    z-index: 7;
+    perspective: 601px;
+    background: #ffffff5e;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');

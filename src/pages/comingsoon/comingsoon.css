@@ -3,15 +3,42 @@
     background-image: url(https://cowparadisegames.com/wp-content/uploads/2024/06/section5_bg.webp);
     background-position: center center;
     background-size: cover;
-    height: 100vh;
 }
 .char {
     width: 100%; /* Allows the container to take the full width of its parent */
     max-width: 1140px; /* Limits the maximum width to 1140 pixels */
     margin: 0 auto; /* Centers the container horizontally */
   }
-.char img {
+.character-pics {
     height: 160px;
     width: 181px;
     border-radius: 25px;
 }
+
+.carousel-container {
+    perspective: 1000px;
+    width: 800px;
+    margin: auto;
+  }
+  
+  .carousel-3d .carousel-item {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 800px;
+    height: 400px;
+    transform-origin: center;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-3d .active {
+    z-index: 1;
+  }
+  .min-h-72 {
+    min-height: 100vh;
+
+  }
+  .min-h-72 img {
+    height: 800px !important;
+  }
