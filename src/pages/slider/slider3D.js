@@ -63,6 +63,7 @@ const Slider3D = () => {
             src="https://cowparadisegames.com/wp-content/uploads/2024/02/11CowParadiseExploration.00_00_16_27.Still001.webp"
             alt="Slide 2"
           />
+
           
         </div>
         <div className="slider-item cursor-pointer">
