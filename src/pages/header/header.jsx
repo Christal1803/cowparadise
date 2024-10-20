@@ -5,7 +5,7 @@ function Header() {
     <div className="container-fluid">
       <div className='row'>
         <header class=" flex flex-wrap  md:justify-start md:flex-nowrap z-50 w-full bg-transparent dark:bg-neutral-800 dark:border-neutral-700">
-          <nav class="max-w-[90rem] w-full mx-auto md:flex md:items-center md:justify-between md:gap-3 py-2">
+          <nav class=" w-full mx-auto md:flex md:items-center md:justify-between md:gap-3 py-2">
             <div class="flex justify-between items-center gap-x-1">
               <img width="250" height="213" src="https://cowparadisegames.com/wp-content/uploads/2024/02/cropped-Logo-final-scaled.webp" class="aux-attachment aux-featured-image attachment-2560x613 aux-attachment-id-1367 " alt="logo" data-ratio="4.18" data-original-w="2560"></img>
               <button type="button" class="hs-collapse-toggle md:hidden relative size-9 flex justify-center items-center font-medium text-[12px] rounded-lg border border-gray-200 text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-neutral-700 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" id="hs-header-base-collapse" aria-expanded="false" aria-controls="hs-header-base" aria-label="Toggle navigation" data-hs-collapse="#hs-header-base" >

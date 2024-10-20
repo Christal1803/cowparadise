@@ -23,7 +23,6 @@ function Home() {
       <Comingsoon />
       <Team />
       <Contactus />
-      <Slider3D/>
       <Footer />
     </div>
     </>

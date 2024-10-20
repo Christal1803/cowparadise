@@ -31,34 +31,34 @@ function Comingsoon() {
                                     alt="Image 1"
                                 />
                             </div>
-                            <div className="col-sm-12 col-md-12 col-lg-2 character-pics">
+                            <div className="col-sm-12 col-md-12 col-lg-2 ">
                                 <img
-                                    class="img-fluid mx-auto"
+                                    class="img-fluid mx-auto character-pics"
                                     src="https://cowparadisegames.com/wp-content/uploads/2024/02/Protagoniste_cook-300x300.webp"
                                     alt="Image 2"
                                 />
                             </div>
-                            <div className="col-sm-12 col-md-12 col-lg-2 character-pics">
+                            <div className="col-sm-12 col-md-12 col-lg-2 ">
                                 <img
-                                    class="img-fluid mx-auto"
+                                    class="img-fluid mx-auto character-pics"
                                     src="https://cowparadisegames.com/wp-content/uploads/2024/02/Protagoniste_cop-300x300.webp"
                                 />
                             </div>
-                            <div className="col-sm-12 col-md-12 col-lg-2 character-pics">
+                            <div className="col-sm-12 col-md-12 col-lg-2 ">
                                 <img
-                                    class="img-fluid mx-auto"
+                                    class="img-fluid mx-auto character-pics"
                                     src="https://cowparadisegames.com/wp-content/uploads/2024/02/Protagoniste_Indiana-300x300.webp"
                                 />
                             </div>
-                            <div className="col-sm-12 col-md-12 col-lg-2 character-pics">
+                            <div className="col-sm-12 col-md-12 col-lg-2 ">
                                 <img
-                                    class="img-fluid mx-auto"
+                                    class="img-fluid mx-auto character-pics"
                                     src="https://cowparadisegames.com/wp-content/uploads/2024/02/Protagoniste_main_Character-300x300.webp"
                                 />
                             </div>
-                            <div className="col-sm-12 col-md-12 col-lg-2 character-pics">
+                            <div className="col-sm-12 col-md-12 col-lg-2 ">
                                 <img
-                                    class="img-fluid mx-auto"
+                                    class="img-fluid mx-auto character-pics"
                                     src="https://cowparadisegames.com/wp-content/uploads/2024/02/Protagoniste_Nurse-300x300.webp"
                                     alt="Image 6"
                                 />

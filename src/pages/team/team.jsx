@@ -9,7 +9,7 @@ function Team() {
                         <img className='img-fluid mx-auto pt-5' src="https://cowparadisegames.com/wp-content/uploads/2024/06/meet_out_team_board.webp" alt="" />
                     </div>
 
-                    <div className='row mx-p'>
+                    <div className='row mx-p mb-5'>
                         <div className='col-lg-4 col-md-12 col-sm-12'>
                             <div className='image-container'>
                                 <img
@@ -175,6 +175,13 @@ function Team() {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+
+                        <div className='col-lg-6 col-sm-12 col-md-12 '>
+                            <img src='https://cowparadisegames.com/wp-content/uploads/2024/03/filters_no_upscale-2.webp' className='img-fluid'/>
+                        </div>
+                        <div className='col-lg-6 col-sm-12 col-md-12 '>
+                            <img src='https://cowparadisegames.com/wp-content/uploads/2024/07/image.webp' className='img-fluid'/>
                         </div>
                     </div>
 
