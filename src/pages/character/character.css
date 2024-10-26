@@ -1,5 +1,5 @@
 .character {
-    background-image: url(https://cowparadisegames.com/wp-content/uploads/2024/06/section5_bg.webp);
+    background-image: url("../../assets/section5_bg.jpg");
     background-position: center center;
     background-size: cover;
 }
@@ -15,12 +15,12 @@
   }
   @media screen and (min-width: 992px) {
     .carousel {
-      max-width: 70%;
+      max-width: 100%;
       margin: 0 auto;
     }
   }
   .carousel-indicators button.thumbnail {
-    width: 150px;
+    width: 210px;
     height: auto;
 }
 .h-126 {
@@ -44,5 +44,22 @@
     font-size: 60px;
     backdrop-filter: none;
     visibility: visible;
+}
+@media (max-width: 768px) {
+  .d-block.img-fluid {
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-indicators {
+  margin-left: 0;
+  margin-right: 0
+}
+.carousel {
+  padding: 0;
+}
+.carousel-indicators {
+  gap: 0;
+}
 }
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');

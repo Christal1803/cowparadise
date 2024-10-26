@@ -7,59 +7,48 @@ import c2 from "../../assets/char2.png";
 import c3 from "../../assets/char3.png";
 
 function Character() {
+    const characters = [
+        { name: 'JACK', mainImg: m1, charImg: c2 },
+        { name: 'THUNDER', mainImg: m2, charImg: c1 },
+        { name: 'SUNNY', mainImg: m3, charImg: c3 }
+    ];
+
     return (
         <div className='container-fluid'>
             <div className='row'>
                 <div className='character'>
                     <div className='container-fluid'>
-                        <div className='row p-5'>
-
-
-
-                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <p className='char-name mt-5 mb-2'>JACK</p>
-                                        <img src={c2} class="d-block img-fluid" alt="..." />
-                                    </div>
-                                    <div class="carousel-item">
-                                        <p className='char-name mt-5 mb-2'>THUNDER</p>
-                                        <img src={c1} class="d-block img-fluid" alt="..." />
-                                    </div>
-                                    <div class="carousel-item">
-                                    <p className='char-name mt-5 mb-2'>SUNNY</p>
-                                        <img src={c3} class="d-block img-fluid" alt="..." />
-                                    </div>
-                                </div>
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active thumbnail" aria-current="true" aria-label="Slide 1">
-                                        <img src={m1} class="d-block w-100 h-126" alt="..." />
-                                        <div >
-
+                        <div className='row'>
+                            <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"  >
+                                <div className="carousel-inner">
+                                    {characters.map((character, index) => (
+                                        <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
+                                            <p className='char-name mt-5 mb-2'>{character.name}</p>
+                                            <img src={character.charImg} className="d-block img-fluid" alt={character.name} />
                                         </div>
-                                    </button>
-                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="thumbnail" aria-label="Slide 2">
-                                        <img src={m2} class="d-block w-100 h-126" alt="..." />
-                                    </button>
-                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="thumbnail" aria-label="Slide 3">
-                                        <img src={m3} class="d-block w-100 h-126" alt="..." />
-                                    </button>
-
-
-
+                                    ))}
+                                </div>
+                                <div className="carousel-indicators">
+                                    {characters.map((character, index) => (
+                                        <button
+                                            type="button"
+                                            data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to={index}
+                                            className={`thumbnail ${index === 0 ? 'active' : ''}`}
+                                            aria-current={index === 0 ? 'true' : undefined}
+                                            aria-label={`Slide ${index + 1}`}
+                                            key={index}
+                                        >
+                                            <img src={character.mainImg} className="d-block w-100 h-126" alt={character.name} />
+                                        </button>
+                                    ))}
                                 </div>
                             </div>
-
-
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-
     );
 }
 

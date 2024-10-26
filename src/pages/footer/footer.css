@@ -24,3 +24,21 @@ p a{
 .pb-70{
     padding-bottom: 70px;
 }
+@media (max-width: 767px) {
+    .grid.grid-cols-4.md\:grid-cols-4.lg\:grid-cols-4.gap-6.mb-10.mt-4.pb-70 {
+        display: flow !important;
+    }
+    .ml-10 {
+        margin-left: 0 !important;
+    }
+    .pb-70 {
+        padding-bottom: 0px !important;
+    }
+}
+.inline-flex > .fa-brands 
+{
+    border-color: #FFFFFF;
+    border: 2px solid;
+    padding: 8px;
+border-radius: 4px;
+}

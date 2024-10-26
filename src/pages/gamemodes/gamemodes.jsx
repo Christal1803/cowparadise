@@ -1,4 +1,5 @@
 import '../gamemodes/gamemodes.css';
+import board from "../../assets/game_modes_board.jpg";
 
 function Gamemodes() {
     return (
@@ -6,7 +7,7 @@ function Gamemodes() {
             <div className='row'>
                 <div className='gamemodes'>
                     <div class="widget-container">
-                        <img className='img-fluid' src="https://cowparadisegames.com/wp-content/uploads/2024/06/game_modes_board.webp" alt="" />
+                        <img className='img-fluid' src={board} alt="" />
                     </div>
                     <div className='col-12 my-5 char'>
                         <div id="carouselExample" class="carousel slide">
@@ -47,9 +48,6 @@ function Gamemodes() {
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
