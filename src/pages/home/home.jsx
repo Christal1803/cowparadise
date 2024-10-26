@@ -25,7 +25,6 @@ function Home() {
       <Team />
       <Contactus />
       <Footer />
-      {/* <Uer/> */}
     </div>
     </>
   );
