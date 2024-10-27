@@ -10,8 +10,8 @@ import s3 from "../../assets/beachwears.png";
 
 const Slider3D = () => {
   const settings = {
-    dots: true,
-    infinite: false,
+    dots: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -21,6 +21,7 @@ const Slider3D = () => {
     autoplay: false,
     autoplaySpeed: 2000,
     cssEase: "ease-in-out",
+    arrows: false
   };
 
   return (
