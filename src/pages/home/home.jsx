@@ -14,7 +14,7 @@ function Home() {
   return (
     <>
     <div>
-      {/* <Header/> */}
+      <Header/>
       <Mainsection />
       <Watchtrailer />
       <Gamemodes />
@@ -23,11 +23,9 @@ function Home() {
       <Comingsoon />
       <Team />
       <Contactus />
-      <Slider3D/>
       <Footer />
     </div>
     </>
-    
   );
 }
 

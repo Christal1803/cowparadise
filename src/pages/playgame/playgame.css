@@ -4,6 +4,7 @@
     background-color: #FFF0DF;
 
 }
+
 .about {
     color: #444444;
     font-size: 16px;
@@ -11,11 +12,39 @@
 }
 .m-img {
     position: absolute;
-    left: 22%;
-    top: -85%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -65%);
+    max-width: 100%;
 }
 .earn-fencing {
     transform: scaleX(-1);
 }
+.w-500 {
+    width: 500px;
+}
 
+@media (max-width: 768px) {
+   .m-img {
+    position: static;
+   }
+   .w-500 {
+    width: auto;
+   }
+   .f2 {
+        padding: 0;
+        /* transform: matrix(1, 1, -1, 0, 0, 0); */
+   
 
+}img.img-fluid.m-img {
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.size-4 {
+    width: 1.5rem;
+  
+}
+.size-9 {
+    width: 3.25rem;
+    height: 3.25rem;
+}
+}

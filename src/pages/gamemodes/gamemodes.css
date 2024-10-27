@@ -1,5 +1,5 @@
 .gamemodes {
-       background-image: url(https://cowparadisegames.com/wp-content/uploads/2024/06/section3_bg.webp);
+       background-image: url(../../assets/section3_bg.jpg);
     background-position: center center;
     background-size: cover;
 
@@ -86,4 +86,17 @@
 }
 .carousel-control-next, .carousel-control-prev {
     width: 5%;
+}
+@media (max-width: 768px) {
+    .f-30 {
+
+      font-size: 13px;
+    }
+    .btn-button {
+        font-size: 13px;
+        padding: 0px 15px;
+    }
+    .video-caption {
+        position: absolute;
+        bottom: -2px;}
 }

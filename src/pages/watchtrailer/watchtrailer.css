@@ -1,9 +1,127 @@
 .watchtrailer {
-    background-image: url('https://cowparadisegames.com/wp-content/uploads/2024/06/section2_bg.webp');
+    background-image: url('../../assets/section2_bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     -webkit-mask-image: linear-gradient(black 90%, transparent);
     mask-image: linear-gradient(black 90%, transparent);
+}
+
+  .carousel-fade .carousel-item-next.carousel-item-left,
+  .carousel-fade .carousel-item-prev.carousel-item-right {
+    opacity: 0;
+  }
+  
+  .carousel-fade .carousel-item.active {
+    opacity: 1;
+  }
+  .carousel-fade .carousel-item {
+    transition: opacity 2.5s cubic-bezier(0.4, 0, 0.2, 1); /* 2.5 seconds with custom easing */
+  }
+  .char {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.video-caption-title {
+    z-index: 9;
+    font-family: Urbanist;
+    height: auto;
+    width: auto;
+    color: rgb(236, 222, 195);
+    text-decoration: none;
+    white-space: normal;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 118px;
+    letter-spacing: -1.96px;
+    font-weight: 700;
+    font-size: 118px;
+    padding-bottom: 20px;
+    backdrop-filter: none;
+    filter: none;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+.v-c-btn {
+    z-index: 8;
+    font-family: Urbanist;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    color: rgb(236, 222, 195);
+    text-decoration: none;
+    white-space: normal;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 27px;
+    letter-spacing: 0.98px;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    backdrop-filter: none;
+    filter: none;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    border-width: 0px;
+}
+
+.video-container {
+    position: relative; /* Keep the container relative for positioning */
+    overflow: hidden; /* Ensure any overflow is hidden */
+  }
+  
+  .carousel-caption {
+    position: absolute; /* Position caption absolutely */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    bottom: 0; /* Align to the bottom */
+    background-color: rgba(33, 13, 0, 0.48); /* Semi-transparent background */
+    color: white; /* Text color */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    padding: 20px; /* Add padding as needed */
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.5s ease; /* Fade effect */
+  }
+  
+  .carousel-item.active .carousel-caption {
+    opacity: 1; /* Show caption for active item */
+  }
+  
+  .video-caption-title {
+    margin: 0; /* Adjust margin as needed */
+  }
+  
+  .v-c-btn {
+    margin-top: 10px; /* Space between title and buttons */
+  }
+  .v-cation {
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    transform: translate(-53%, -50%);
+  }
+  @media (max-width: 768px) {
+    .widget-container > .img-fluid {
+
+      width: 50%;
+    }
 }
