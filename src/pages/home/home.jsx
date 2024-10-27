@@ -8,7 +8,6 @@ import Mainsection from "../mainsection/mainsection";
 import Playgame from "../playgame/playgame";
 import Slider3D from "../slider/slider3D";
 import Team from "../team/team";
-import Uer from "../uer/uer";
 import Watchtrailer from "../watchtrailer/watchtrailer";
 
 function Home() {
