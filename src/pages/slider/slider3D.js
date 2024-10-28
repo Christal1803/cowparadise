@@ -21,7 +21,7 @@ const Slider3D = () => {
     autoplay: false,
     autoplaySpeed: 2000,
     cssEase: "ease-in-out",
-    arrows: false
+    arrows: false,
   };
 
   return (

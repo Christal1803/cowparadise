@@ -1,5 +1,6 @@
 import "../footer/footer.css";
 import fl from "../../assets/flogo.jpg";
+import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='container-fluid'>
@@ -25,27 +26,27 @@ function Footer() {
 
               <div class="mt-3 grid space-y-3 ">
                 <p>
-                  <a class="inline-flex gap-x-2 text-white" href="#">
+                  <a class="inline-flex gap-x-2 text-white" href="#home">
                     Home
                   </a>
                 </p>
                 <p>
-                  <a class="inline-flex gap-x-2 text-white " href="#">
+                  <a class="inline-flex gap-x-2 text-white " href="#trailer">
                     Game Trailer
                   </a>
                 </p>
                 <p>
-                  <a class="inline-flex gap-x-2 text-white " href="#">
+                  <a class="inline-flex gap-x-2 text-white " href="#marketplace">
                     Marketplace
                   </a>
                 </p>
                 <p>
-                  <a class="inline-flex gap-x-2 text-white " href="#">
+                  <a class="inline-flex gap-x-2 text-white " href="#comingsoon">
                     Coming Soon
                   </a>
                 </p>
                 <p>
-                  <a class="inline-flex gap-x-2 text-white " href="#">
+                  <a class="inline-flex gap-x-2 text-white " href="#contact">
                     Contact Us
                   </a>
                 </p>
@@ -55,16 +56,16 @@ function Footer() {
             <div className="mt-5">
               <h6 class="f-15 dark:text-neutral-100 text-white">Other Links</h6>
 
-              <div class="mt-3 grid space-y-3 ">
+              <div className="mt-3 space-y-3">
                 <p>
-                  <a class="inline-flex gap-x-2 text-white " href="#">
+                  <Link to="/privacy-policy" target="_blank" className="inline-flex items-center gap-2 text-white hover:underline">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a class="inline-flex gap-x-2 text-white " href="#">
+                  <Link to="/terms-conditions" target="_blank" className="inline-flex items-center gap-2 text-white hover:underline">
                     Terms & Conditions
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -75,21 +76,20 @@ function Footer() {
               </h6>
 
               <div class="mt-3 d-inline space-y-3 ">
-                
-                  <a class="inline-flex gap-x-2 text-white " href="#">
+
+                <a class="inline-flex gap-x-2 text-white " href="https://www.facebook.com/profile.php?id=61552567389239&mibextid=9R9pXO">
                   <i class="fa-brands fa-facebook"></i>
-                  </a>
-             
-                  <a class="inline-flex gap-x-2 text-white ms-3" href="#">
+                </a>
+
+                <a class="inline-flex gap-x-2 text-white ms-3" href="https://twitter.com/x/migrate?tok=7b2265223a222f436f77766572736547616d6573222c2274223a313731373837383536307d6e35fdc1f57a36117ffd893b7b13b6c9">
                   <i class="fa-brands fa-twitter"></i>
-                  </a>
-                
-              
-                  <a class="inline-flex gap-x-2 text-white ms-3" href="#">
+                </a>
+
+
+                <a class="inline-flex gap-x-2 text-white ms-3" href="https://www.youtube.com/@CowParadiseGames">
                   <i class="fa-brands fa-youtube"></i>
-                  </a>
-               
-                
+                </a>
+
               </div>
             </div>
           </div>

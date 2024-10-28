@@ -1,7 +1,7 @@
 import "../comingsoon/comingsoon.css";
 import coming from "../../assets//coming_soon_board.png";
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom"; 
+import { useLocation } from "react-router-dom";
 import "preline/preline";
 import Slider from "react-slick";
 import Slider3D from "../slider/slider3D";
@@ -13,7 +13,7 @@ import main from "../../assets/Protagoniste_main_Character-300x300.jpg"
 import nurse from "../../assets/Protagoniste_Nurse-300x300.jpg"
 
 function Comingsoon() {
-    const location = useLocation(); 
+    const location = useLocation();
 
     useEffect(() => {
         window.HSStaticMethods.autoInit(["carousel", "dropdown"]);
