@@ -3,6 +3,9 @@ import cboard from "../../assets/contact_us_board.jpg";
 import coin from "../../assets/Finalcowcoin.gif";
 
 function Contactus() {
+    const handleSubmit = (event) => {
+        event.preventDefault();
+    };
     return (
         <div className='container-fluid' id='contact'>
             <div className='row'>
@@ -20,14 +23,14 @@ function Contactus() {
                                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                                 </div>
                                 <div class="mb-3">
-                                    <label  class="form-label">Your email</label>
+                                    <label class="form-label">Your email</label>
                                     <input type="text" class="form-control" id="exampleInputPassword1" />
                                 </div>
                                 <div class="mb-3">
-                                    <label  class="form-label">Your message (optional)</label>
+                                    <label class="form-label">Your message (optional)</label>
                                     <textarea class="form-control" rows="12" id="exampleInputPassword1"></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-secondary mb-5">Submit</button>
+                                <button type="submit" class="btn btn-secondary mb-5" onClick={handleSubmit}>Submit</button>
                             </form>
                         </div>
                     </div>

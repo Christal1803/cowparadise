@@ -14,7 +14,7 @@ function Character() {
     ];
 
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid' id='marketplace'>
             <div className='row'>
                 <div className='character'>
                     <div className='container-fluid'>
