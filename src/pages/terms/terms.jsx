@@ -11,7 +11,7 @@ function Terms() {
             <PageTitle title="Terms & Conditions" />
             <div className="container-fluid">
                 <div className='row'>
-                    <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full dark:bg-neutral-800 dark:border-neutral-700">
+                    <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full ">
                         <nav className="w-full mx-auto md:flex md:items-center md:justify-between md:gap-3 py-2">
                             <div className="flex justify-between items-center gap-x-1">
                                 <Link to="/">
@@ -63,7 +63,7 @@ function Terms() {
                 </div>
             </div>
             <div className='container-fluid my-4 char'>
-                <div className='row'>
+                <div className=''>
                     <h1 class="mb-4">Welcome to CowParadise Games!</h1>
                     <p>
                         These Terms & Conditions (“Terms”) govern your access to and use of the CowParadise Games website (the “Website”). By accessing or using the Website, you agree to be bound by these Terms. If you disagree with any part of the Terms, then you may not access or use the Website.

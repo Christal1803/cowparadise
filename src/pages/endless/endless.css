@@ -50,10 +50,14 @@
         left: 0;
         z-index: 1030;
     }
+    .detailofgame.my-3 {
+        display: inline-grid;
+    }
 }
 
 line {
-    color: #fff;
+    color: black !important;
+    fill: #000 !important;
 }
 .navbar-blur {
     background: rgba(255, 255, 255, 0.5);
