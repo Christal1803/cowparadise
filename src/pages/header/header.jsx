@@ -22,7 +22,7 @@ function Header() {
   return (
     <div className={`container-fluid fixed-top ${scrolled ? 'navbar-blur' : 'bg-transparent'}`}>
       <div className='row'>
-        <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full dark:bg-neutral-800 dark:border-neutral-700">
+        <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full">
           <nav className="w-full mx-auto md:flex md:items-center md:justify-between md:gap-3 py-2">
             <div className="flex justify-between items-center gap-x-1">
               <Link to="/">
