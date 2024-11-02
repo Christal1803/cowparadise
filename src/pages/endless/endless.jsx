@@ -90,8 +90,8 @@ function Endless() {
                                 <h4 className='nameofgame my-2'>Endless Runner Game</h4>
                             </div>
                             <div className='store-imgs my-2'>
-                                <span href="https://play.google.com/store/apps/details?id=com.CowParadise.CowRun&pcampaignid=web_share" target="_blank"><img src={Gplay} className='img-fluid store-imgs me-4' /></span>
-                                <span href="https://apps.apple.com/us/app/cow-paradise-cow-run/id6557071895" target='_blank'><img src={Aplay} className='img-fluid store-imgs' /></span>
+                                <a href="https://play.google.com/store/apps/details?id=com.CowParadise.CowRun&pcampaignid=web_share" target="_blank"><img src={Gplay} className='img-fluid store-imgs me-4' /></a>
+                                <a href="https://apps.apple.com/us/app/cow-paradise-cow-run/id6557071895" target='_blank'><img src={Aplay} className='img-fluid store-imgs' /></a>
                             </div>
                         </div>
                     </div>
